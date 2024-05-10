@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date: 10.05.2024
+## Date: 10.05.2024git
 
 ## AIM:
 To design a responsive website for a Pharmaceutical Company using Bootstrap.
@@ -384,7 +384,99 @@ product.html
 </body>
 </html>
 ```
+contact.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - PharmaCompany</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">
+      <img src="pharmasphere_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      PharmaCompany
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="web.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Products</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Contact Us</h1>
+        <p>Reach out to us for any inquiries or feedback. Fill out the form below, and our team will promptly respond.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <div class="col-md-4">
+            <h2>Contact Information</h2>
+            <address>
+                <strong>Address:</strong><br>
+                123 Fancy Street, Poonamallee<br>
+                Chennai, Tamil Nadu, India<br><br>
+                <strong>Email:</strong><br>
+                kavinajai@pharmacompany.com<br><br>
+                <strong>Phone:</strong><br>
+                +91 98765 43210
+            </address>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-2">
+    <p>&copy; 2024 PharmaCompany. All rights reserved. BY T.KAVINAJAI</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
 ## OUTPUT:
 ![alt text](kavin/softapp/static/out1.png)
 ![alt text](<kavin/softapp/static/about out.png>)
